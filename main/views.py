@@ -21,7 +21,7 @@ def show_main(request):
         news_list = News.objects.filter(user=request.user)
 
     context = {
-        'npm': '240406365225',
+        'npm': '2406365225',
         'name': request.user.username,
         'class': 'PBP KKI',
         'news_list': news_list,
